@@ -1,0 +1,115 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: #f4f6f8;
+  background-color: rgb(178, 210, 210);
+}
+
+.post-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post-card h2 {
+  margin-bottom: 5px;
+}
+
+.post-card p {
+  margin-bottom: 10px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-actions button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.post-actions button:hover {
+  background-color: #c82333;
+}
+
+.post-actions .edit-link {
+  color: #007bff;
+}
+
+.post-actions .edit-link:hover {
+  text-decoration: underline;
+}
+
+.form-container {
+  margin-top: 20px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container form input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.form-container form button[type="submit"] {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.form-container form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.form-container form a {
+  color: #007bff;
+  margin-top: 10px;
+}
+
+.form-container form a:hover {
+  text-decoration: underline;
+}
+
